@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="数据资产梳理、敏感数据识别、数据分类分级、数据访问控制、数据安全审计都是数据安全治理技术的范畴
+ 风险是数据安全保障的起点，正是由于有了风险、有了特定威胁动机的威胁源，使用各种攻击方法、利用信息系统的各种脆弱性、对信息资产造成各种影响，才引起了信息安全问题。而数据安全治理就是围绕着风险，针对面临的各种风险，制定针对性的策略，将风险减少至可以接受的程度。
+1、安全目标与业务目标对其
+大数据时代，从企业内部到企业关联的上下游产业链中每天都源源不断产生大量数据，这些数据能够给企业带来无限机会。数据也因此被称为新时代企业的“黄金”和“石油”，正成为企业的核心资产、国家的战略资源。保证数据安全能力已成为全球进入大数据时代的重要竞争力。
+传统的数据安全更多的是放在网络入侵系统数据被窃取，而这只是数据安全的一部分，我们提到的数据安全是以数据为中心，建设可见、可控、可管的能力，达到让数据看得见，控得住，管得好。
+我们回过头再谈数据安全治理的目标，让数据看得见，控得住，管得好是数据安全治理的手段，并不是目标。那么什么才是数据安全治理的目标呢？有专家观点：数据安全管理是实现敏感数据最小化访问，以保证数据的安全。笔者认为这是战术层面的数据安全管理，而从战略上讲数据安全和敏感信息的保护要站在企业级数据共享和应用的视角，以合规要求为前提，以数据应用为基础，以满足业务用数需求为驱动，将数据安全目标与企业业务目标对其，来进行统筹规划。换句话说，数据安全治理的目标是通过安全的使用数据以实现业务目标，脱离了“使用”数据安全就没有了意义，脱离了“业务目标”数据资产就没有了价值。">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="安全治理的九个要素" />
+<meta property="og:description" content="数据资产梳理、敏感数据识别、数据分类分级、数据访问控制、数据安全审计都是数据安全治理技术的范畴
+ 风险是数据安全保障的起点，正是由于有了风险、有了特定威胁动机的威胁源，使用各种攻击方法、利用信息系统的各种脆弱性、对信息资产造成各种影响，才引起了信息安全问题。而数据安全治理就是围绕着风险，针对面临的各种风险，制定针对性的策略，将风险减少至可以接受的程度。
+1、安全目标与业务目标对其
+大数据时代，从企业内部到企业关联的上下游产业链中每天都源源不断产生大量数据，这些数据能够给企业带来无限机会。数据也因此被称为新时代企业的“黄金”和“石油”，正成为企业的核心资产、国家的战略资源。保证数据安全能力已成为全球进入大数据时代的重要竞争力。
+传统的数据安全更多的是放在网络入侵系统数据被窃取，而这只是数据安全的一部分，我们提到的数据安全是以数据为中心，建设可见、可控、可管的能力，达到让数据看得见，控得住，管得好。
+我们回过头再谈数据安全治理的目标，让数据看得见，控得住，管得好是数据安全治理的手段，并不是目标。那么什么才是数据安全治理的目标呢？有专家观点：数据安全管理是实现敏感数据最小化访问，以保证数据的安全。笔者认为这是战术层面的数据安全管理，而从战略上讲数据安全和敏感信息的保护要站在企业级数据共享和应用的视角，以合规要求为前提，以数据应用为基础，以满足业务用数需求为驱动，将数据安全目标与企业业务目标对其，来进行统筹规划。换句话说，数据安全治理的目标是通过安全的使用数据以实现业务目标，脱离了“使用”数据安全就没有了意义，脱离了“业务目标”数据资产就没有了价值。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://securty.weigou365.cn/docs/example/doc1/" /><meta property="article:section" content="docs" />
+
+
+
+<title>安全治理的九个要素 | 数据安全治理</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.4e98d48895c8c70f5fcd553dc2ca99f21ba9947069b0c6a309a2bd8531153f13.js" integrity="sha256-TpjUiJXIxw9fzVU9wsqZ8huplHBpsMajCaK9hTEVPxM=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>数据安全治理</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="" target="_blank" rel="noopener">
+        
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-090e5e9541fbf7abe3678403e1b40824" class="toggle" checked />
+    <label for="section-090e5e9541fbf7abe3678403e1b40824" class="flex justify-between">
+      <a role="button" class="">数据安全治理资料</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://securty.weigou365.cn/docs/example/doc1/" class=" active">安全治理的九个要素</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="" target="_blank" rel="noopener">
+        
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>安全治理的九个要素</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><blockquote>
+<p>数据资产梳理、敏感数据识别、数据分类分级、数据访问控制、数据安全审计都是数据安全治理技术的范畴</p>
+</blockquote>
+<p>风险是数据安全保障的起点，正是由于有了风险、有了特定威胁动机的威胁源，使用各种攻击方法、利用信息系统的各种脆弱性、对信息资产造成各种影响，才引起了信息安全问题。而数据安全治理就是围绕着风险，针对面临的各种风险，制定针对性的策略，将风险减少至可以接受的程度。</p>
+<p><strong>1、安全目标与业务目标对其</strong></p>
+<p><img src="/images/example/doc1_1.png" alt="上下游" /></p>
+<p>大数据时代，从企业内部到企业关联的上下游产业链中每天都源源不断产生大量数据，这些数据能够给企业带来无限机会。数据也因此被称为新时代企业的“黄金”和“石油”，正成为企业的核心资产、国家的战略资源。保证数据安全能力已成为全球进入大数据时代的重要竞争力。</p>
+<p>传统的数据安全更多的是放在网络入侵系统数据被窃取，而这只是数据安全的一部分，我们提到的数据安全是以数据为中心，建设可见、可控、可管的能力，达到让数据看得见，控得住，管得好。</p>
+<p>我们回过头再谈数据安全治理的目标，让数据看得见，控得住，管得好是数据安全治理的手段，并不是目标。那么什么才是数据安全治理的目标呢？有专家观点：数据安全管理是实现敏感数据最小化访问，以保证数据的安全。笔者认为这是战术层面的数据安全管理，而从战略上讲数据安全和敏感信息的保护要站在企业级数据共享和应用的视角，以合规要求为前提，以数据应用为基础，以满足业务用数需求为驱动，将数据安全目标与企业业务目标对其，来进行统筹规划。换句话说，数据安全治理的目标是通过安全的使用数据以实现业务目标，脱离了“使用”数据安全就没有了意义，脱离了“业务目标”数据资产就没有了价值。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

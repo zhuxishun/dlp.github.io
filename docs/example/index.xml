@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据安全治理资料 on 数据安全治理</title>
+    <link>http://securty.weigou365.cn/docs/example/</link>
+    <description>Recent content in 数据安全治理资料 on 数据安全治理</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language><atom:link href="http://securty.weigou365.cn/docs/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安全治理的九个要素</title>
+      <link>http://securty.weigou365.cn/docs/example/doc1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://securty.weigou365.cn/docs/example/doc1/</guid>
+      <description>数据资产梳理、敏感数据识别、数据分类分级、数据访问控制、数据安全审计都是数据安全治理技术的范畴
+ 风险是数据安全保障的起点，正是由于有了风险、有了特定威胁动机的威胁源，使用各种攻击方法、利用信息系统的各种脆弱性、对信息资产造成各种影响，才引起了信息安全问题。而数据安全治理就是围绕着风险，针对面临的各种风险，制定针对性的策略，将风险减少至可以接受的程度。
+1、安全目标与业务目标对其
+大数据时代，从企业内部到企业关联的上下游产业链中每天都源源不断产生大量数据，这些数据能够给企业带来无限机会。数据也因此被称为新时代企业的“黄金”和“石油”，正成为企业的核心资产、国家的战略资源。保证数据安全能力已成为全球进入大数据时代的重要竞争力。
+传统的数据安全更多的是放在网络入侵系统数据被窃取，而这只是数据安全的一部分，我们提到的数据安全是以数据为中心，建设可见、可控、可管的能力，达到让数据看得见，控得住，管得好。
+我们回过头再谈数据安全治理的目标，让数据看得见，控得住，管得好是数据安全治理的手段，并不是目标。那么什么才是数据安全治理的目标呢？有专家观点：数据安全管理是实现敏感数据最小化访问，以保证数据的安全。笔者认为这是战术层面的数据安全管理，而从战略上讲数据安全和敏感信息的保护要站在企业级数据共享和应用的视角，以合规要求为前提，以数据应用为基础，以满足业务用数需求为驱动，将数据安全目标与企业业务目标对其，来进行统筹规划。换句话说，数据安全治理的目标是通过安全的使用数据以实现业务目标，脱离了“使用”数据安全就没有了意义，脱离了“业务目标”数据资产就没有了价值。</description>
+    </item>
+    
+  </channel>
+</rss>
